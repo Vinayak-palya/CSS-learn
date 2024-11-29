@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ex7_GRID</title>
+    <style>
+      .logo {
+        width: 40px;
+        height: 23px;
+        /* background-color: blue; */
+      }
+      .logo img {
+        width: 164px;
+      }
+      nav {
+        justify-content: space-around;
+        align-items: center;
+        display: flex;
+      }
+      .right ul {
+        display: flex;
+        gap: 34px;
+      }
+      .right ul li {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+      }
+      .right ul li {
+        padding: 0px 5px;
+      }
+      .container {
+        margin-left: 10vw;
+        margin-right: 5vw;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-top: 25px;
+        height: 120vh;
+        width: 80vw;
+        /* border: 2px solid black; */
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        row-gap: 5vh;
+      }
+      .item {
+        border: 2px solid rgba(237, 237, 237, 0.797);
+        width: 24vw;
+        height: 28vh;
+        flex-direction: column;
+        display: flex;
+        justify-self: center;
+        /* justify-content: center; */
+        align-items: center;
+        row-gap: 9vh;
+        align-self: center;
+        border-radius: 5px;
+        background-color: rgba(237, 237, 237, 0.719);
+      }
+      .item a {
+        border: 2px solid rgb(28, 162, 70);
+        border-radius: 6px;
+        padding: 6px;
+        background-color: rgba(26, 161, 85, 1);
+        color: whitesmoke;
+        font-size: minmax(2vh , 2vw);
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <img
+            src="https://www.ultraedit.com/wp-content/uploads/2023/01/UE-Logo-1.webp"
+            alt="Ultra Edit"
+          />
+        </div>
+
+        <div class="right">
+          <ul>
+            <li>
+              <span>About</span
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                width="24"
+                height="24"
+                color="#000000"
+                fill="none"
+              >
+                <path
+                  d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </li>
+            <li>
+              <span>Home</span
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                width="24"
+                height="24"
+                color="#000000"
+                fill="none"
+              >
+                <path
+                  d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </li>
+            <li>
+              <span>Explore</span
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                width="24"
+                height="24"
+                color="#000000"
+                fill="none"
+              >
+                <path
+                  d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </li>
+            <li>
+              <span>Contact Us</span
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                width="24"
+                height="24"
+                color="#000000"
+                fill="none"
+              >
+                <path
+                  d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </li>
+            <!-- <li><img src="https://www.ultraedit.com/downloads/ultraedit-download-thank-you/" alt=""></li> -->
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div class="container">
+      <div class="item item-1">
+        <p>English</p>
+        <p><a href="ue_english_64.exe">Download 64-bit</a></p>
+      </div>
+      <div class="item item-2">
+        <p>Deutsch</p>
+        <p><a href="ue_english_64.exe">Download 64-bit</a></p>
+      </div>
+      <div class="item item-3">
+        <p>Italiano</p>
+        <p><a href="ue_english_64.exe">Download 64-bit</a></p>
+      </div>
+      <div class="item item-4">
+        <p>Español</p>
+        <p><a href="ue_english_64.exe">Download 64-bit</a></p>
+      </div>
+      <div class="item item-5">
+        <p>français</p>
+        <p><a href="ue_english_64.exe">Download 64-bit</a></p>
+      </div>
+      <div class="item item-6">
+        <p>Português brasileiro</p>
+        <p><a href="ue_english_64.exe">Download 64-bit</a></p>
+      </div>
+      <div class="item item-7">
+        <p>日本</p>
+        <p><a href="ue_english_64.exe">Download 64-bit</a></p>
+      </div>
+      <div class="item item-8">
+        <p>한국어</p>
+        <p><a href="ue_english_64.exe">Download 64-bit</a></p>
+      </div>
+      <div class="item item-9">
+        <p>中国</p>
+        <p><a href="ue_english_64.exe">Download 64-bit</a></p>
+      </div>
+      <div class="item item-10">
+        <p>中國</p>
+        <p><a href="ue_english_64.exe">Download 64-bit</a></p>
+      </div>
+    </div>
+  </body>
+</html>

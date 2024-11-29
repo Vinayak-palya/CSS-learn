@@ -1,0 +1,8 @@
+# macOS files
+.DS_Store
+
+# Large files
+*.exe
+
+# Node.js dependencies (if applicable)
+node_modules/

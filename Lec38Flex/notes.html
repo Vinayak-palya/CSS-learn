@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise 6</title>
+    <style>
+      .Navbar {
+        display: flex;
+        height: 90vh;
+        border: 2px solid rgb(0, 0, 0);
+        /* flex-direction: column; */
+        /* we use align item centre when we only have one line */
+        /* align-items: center; */
+        align-content: center;
+        row-gap: 30px;
+        column-gap: 30px;
+        flex-wrap: wrap;
+        /* aligning items according to the cross axis*/
+        /* justify-content: center; */
+        /*  aligns items at the centrec according to main axis*/
+        /* flex-flow row row-reverse used to set the property flex-direction and flex wrap at once */
+      }
+      li {
+
+        margin: 4px;
+        list-style: none;
+        border: 2px solid gray;
+        height: 13vh;
+        width: 5vw;
+      }
+      .order-1{
+        order: 1;
+      }
+      /* .item1{
+      flex-grow:n;
+      this implies that this item will take space twice the space taken by normal container
+      flex-shrink : ability of an item to shrink  when necessary
+      align self--> aligns  individual element 
+      } */
+      /* img {
+        position: absolute;
+        top: 4vh;
+        left: 4vw;
+        height: 60px;
+      }
+      ul li span {
+        font-weight: bolder;
+      }
+      ul li p {
+       
+        font-size: 0.8em;
+      } */
+    </style>
+  </head>
+  <body>
+    <div>
+      <ul class="Navbar">
+        <li>
+          0
+          <!-- <img
+            src="https://imgs.search.brave.com/TxdQxOwRiHsK9RJKW6l25omuE0I5ciXpD072RUwPmPc/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93aWtp/LnVsdHJhZWRpdC5j/b20vcmVzb3VyY2Vz/L2Fzc2V0cy9pY29u/X3VlLnBuZw"
+            alt="Ultra edit logo"
+          />
+          <span>UltraEdit</span>
+          <p>An Idera, Inc. Company</p> -->
+        </li>
+        <li>1</li>
+        <li class="order-1">2</li>
+        <li>3</li>
+        <li>4</li>
+        <li></li>
+        <li ></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    .container {
+      width: 400px;
+      height: 400px;
+      border: 1px solid black;
+      position: relative; /* Makes the container a positioned ancestor */
+    }
+
+    .static {
+      position: static;
+      background-color: lightblue;
+    }
+
+    .relative {
+      position: relative;
+      top: 10px; /* Moves down 10px */
+      background-color: lightgreen;
+    }
+
+    .absolute {
+      position: absolute;
+      top: 50px; /* 50px down from the top of the container */
+      left: 20px; /* 20px right from the left of the container */
+      background-color: lightcoral;
+    }
+
+    .fixed {
+      position: fixed;
+      top: 10px; /* 10px from the top of the viewport */
+      right: 10px; /* 10px from the right of the viewport */
+      background-color: lightgoldenrodyellow;
+      z-index: 1;
+    }
+
+    .sticky {
+      position: sticky;
+      top: 0; /* Sticks to the top when you scroll past it */
+      background-color: lightpink;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="static">Static Element</div>
+    <div class="relative">Relative Element</div>
+    <div class="absolute">Absolute Element</div>
+  </div>
+
+  <div class="fixed">Fixed Element</div>
+  <div class="sticky">Sticky Element</div>
+
+  <p style="margin-top: 800px;">Scroll down to see the sticky element in action!</p>
+
+</body>
+</html>
